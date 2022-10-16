@@ -1,1 +1,10 @@
-console.log('no siema');
+import { initial } from "./initial";
+
+const content = document.getElementById('content');
+
+
+initial()
+
+
+
+
