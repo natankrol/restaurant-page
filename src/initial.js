@@ -3,7 +3,7 @@ export let initial = () => {
 
     let navbar = document.createElement('div');
     navbar.classList.add('navbar')
-    navbar.innerHTML = "<button type='button'>Menu</button> <button type='button'>Contact</button> <button type='button'>History</button>";
+    navbar.innerHTML = "<button class='menu-btn' type='button'>Menu</button> <button class='contact-btn' type='button'>Contact</button> <button class='history-btn' type='button'>History</button>";
     content.appendChild(navbar);
 
     let title = document.createElement('div');
@@ -14,8 +14,8 @@ export let initial = () => {
     
 
     let restaurantPhoto = document.createElement('div');
-    restaurantPhoto.classList.add('restaurant-photo');
-    restaurantPhoto.innerHTML = "<img src='./restaurant-photo.jpg' alt='restaurant'></img>";
+    restaurantPhoto.classList.add('main-section');
+    restaurantPhoto.innerHTML = "<img class='restaurant-photo' src='./restaurant-photo.jpg' alt='restaurant'></img>";
     content.appendChild(restaurantPhoto);
 
 
