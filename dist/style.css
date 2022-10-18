@@ -1,0 +1,32 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+.navbar button{
+    height: 3rem;
+    width: 6rem;
+    font-size: 1.2rem;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.restaurant-photo{
+    width: 60rem;
+    height: 40rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto
+}
+.restaurant-photo img{
+    max-width: 100%;
+    height: auto;
+}
+button {
+    cursor: pointer;
+}
