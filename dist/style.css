@@ -63,6 +63,7 @@ button {
     margin-left: auto;
     margin-right: auto;
 }
+
 .menu-list{
     display: flex;
     flex-direction: column;
@@ -74,4 +75,36 @@ button {
 .menu-board li{
     list-style: decimal;
     font-size: 2rem;
+}
+.contact-board{
+    height: 40rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff9e8;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1rem;
+    
+}
+.contact-board h1{
+    font-size: 4rem;
+}
+.contact-board p{
+    font-size: 1.7rem;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phone-number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.board-hidden{
+    display: none;
 }
